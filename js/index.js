@@ -9,6 +9,23 @@ $(function () {
     // $('.btn-close').click(function(){
     //     $('.modal-body').html('')
     // })
+    var render_str = '';
+    for(let i = 0 ; i < data.length ; i++){
+        console.log(data[i]);
+        render_str +=`
+                        <div class="col-6 col-md-4 col-lg-3 mb-3">
+                            <div class="card px-2 py-2">
+                                <a href="${data[i].url}" target='_blank'>
+                                    <img src="${data[i].img}" alt="" class="card-imh-top w-100">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">${data[i].date}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    `
+    }
+    $('.js_append').append(render_str)
 })
 
 
