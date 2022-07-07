@@ -199,7 +199,7 @@ data =[
     },
     {
         index:33,
-        date:'2022/05/23',
+        date:'2022/05/22',
         img:'https://res.cloudinary.com/onepiece519/image/upload/v1656847879/Namin_kisses/20220523_n2pnek.jpg',
         url:'https://youtu.be/QziErCjVAwQ'
     },
